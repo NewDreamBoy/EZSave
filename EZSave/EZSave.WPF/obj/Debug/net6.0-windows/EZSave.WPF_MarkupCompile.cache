@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\EZSave\EZSave\EZSave.WPF\App.xaml
-11407045341
+2317232374
 
-4-1885015474
+10-100144479
 197-1836508276
-MainWindow.xaml;
+MainWindow.xaml;Views\InitialGuidanceWindow.xaml;
 
-True
+False
 

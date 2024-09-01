@@ -19,3 +19,11 @@ D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\refint\EZSave.WPF.dll
 D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\EZSave.WPF.pdb
 D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\EZSave.WPF.genruntimeconfig.cache
 D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\ref\EZSave.WPF.dll
+D:\EZSave\EZSave\EZSave.WPF\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+D:\EZSave\EZSave\EZSave.WPF\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\EZSave\EZSave\EZSave.WPF\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\EZSave.WPF.csproj.AssemblyReference.cache
+D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\Views\InitialGuidanceWindow.g.cs
+D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\Views\InitialGuidanceWindow.baml
+D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\EZSave.WPF.csproj.Up2Date

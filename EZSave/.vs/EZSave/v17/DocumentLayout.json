@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\EZSave\\EZSave\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +18,35 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "EZSave.WPF\\MainWindow.xaml",
+              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\MainWindow.xaml",
+              "RelativeToolTip": "EZSave.WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-01T01:12:42.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EZSave.WPF\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "EZSave.WPF\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T01:12:35.869Z"
             }
           ]
         }

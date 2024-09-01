@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pvg+xkwIF+m8JXE++fYt+OBZjd7PHYeK2UM3vQYJnNLDqmxtUGddUliw173K/swUCfEKg8O6/Q7nMNS6EdpgqA==",
+  "success": true,
+  "projectFilePath": "D:\\EZSave\\EZSave\\EZSave.WPF\\EZSave.WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.mvvm\\8.3.0\\communitytoolkit.mvvm.8.3.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

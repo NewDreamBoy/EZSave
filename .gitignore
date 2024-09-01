@@ -1,2 +1,3 @@
+# 忽略 Visual Studio 生成的隐藏目录
 .vs/
 **/AssemblyInfo.cs

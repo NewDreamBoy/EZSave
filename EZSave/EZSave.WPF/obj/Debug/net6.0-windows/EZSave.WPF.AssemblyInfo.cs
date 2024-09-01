@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EZSave.WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78b9a843bb03c48b0e5c4b4815caf47b607f8eaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec3c0cf2bdeef1623e7cdcdc314bfa3e7ed4bbce")]
 [assembly: System.Reflection.AssemblyProductAttribute("EZSave.WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EZSave.WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

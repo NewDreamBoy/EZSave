@@ -9,11 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModels\" />
-    <Folder Include="Views\" />
+    <Folder Include="Utilities\DependencyProperties\" />
     <Folder Include="Models\" />
     <Folder Include="Services\" />
-    <Folder Include="Utilities\" />
     <Folder Include="Resources\" />
     <Folder Include="Configurations\" />
     <Folder Include="Logs\" />

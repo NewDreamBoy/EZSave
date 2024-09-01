@@ -3,11 +3,9 @@ D:\EZSave\EZSave\EZSave.WPF\bin\Debug\net6.0-windows\EZSave.WPF.deps.json
 D:\EZSave\EZSave\EZSave.WPF\bin\Debug\net6.0-windows\EZSave.WPF.runtimeconfig.json
 D:\EZSave\EZSave\EZSave.WPF\bin\Debug\net6.0-windows\EZSave.WPF.dll
 D:\EZSave\EZSave\EZSave.WPF\bin\Debug\net6.0-windows\EZSave.WPF.pdb
-D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\MainWindow.g.cs
 D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\App.g.cs
 D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\EZSave.WPF_MarkupCompile.cache
 D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\EZSave.WPF_MarkupCompile.lref
-D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\MainWindow.baml
 D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\EZSave.WPF.g.resources
 D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\EZSave.WPF.GeneratedMSBuildEditorConfig.editorconfig
 D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\EZSave.WPF.AssemblyInfoInputs.cache

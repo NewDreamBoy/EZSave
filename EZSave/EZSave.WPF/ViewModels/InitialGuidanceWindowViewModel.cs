@@ -12,7 +12,8 @@ namespace EZSave.WPF.ViewModels
         public InitialGuidanceWindowViewModel(ILogger<InitialGuidanceWindowViewModel> logger)
         {
             this._logger = logger;
-            _logger.LogInformation("LogDebug 应该不输出把");
+            _logger.LogTrace("LogDebug 应该不输出把");
+            _logger.LogWarning("InitialGuidanceWindowViewModel 报警");
         }
 
         [ObservableProperty]

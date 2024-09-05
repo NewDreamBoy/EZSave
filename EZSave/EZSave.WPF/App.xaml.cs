@@ -1,12 +1,13 @@
 ﻿using EZSave.WPF.Utilities;
 using EZSave.WPF.Views;
-using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
-using System.Windows;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Serilog;
 using System.IO;
+using System.Reflection;
+using System.Windows;
 
 namespace EZSave.WPF
 {
@@ -38,29 +39,22 @@ namespace EZSave.WPF
                 var basePath = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"..\..\.."));
                 //设置配置文件目录
                 config.SetBasePath(basePath);
-                //获取当前运行环境
-                var env = context.HostingEnvironment;
                 //加载配置文件
                 config.AddJsonFile($"Configurations/appsettings.{Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT")}.json", optional: true, reloadOnChange: true);
-
             }).ConfigureServices((context, services) =>
             {
                 //注入服务
                 services.AddViewModels(Assembly.GetExecutingAssembly());
                 services.AddTransient<InitialGuidanceWindow>();
-
             }).ConfigureLogging((context, logging) =>
             {
-                // 从配置文件加载日志配置
-                logging.AddConfiguration(context.Configuration.GetSection("Logging"));
-                if (Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT") == "Development")
-                {
-                    logging.AddConsole(); // 在开发环境中输出到控制台
-                }
-                else
-                {
-                    
-                }
+                // 清除其他日志提供程序
+                logging.ClearProviders();
+                //配置 Serilog 使用配置文件
+                Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(context.Configuration)
+                    .CreateLogger();
+                //使用 Serilog 作为日志提供程序
+                logging.AddSerilog();
             }).Build();
         }
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lbYz+IwTtFdddAfUnsDaXlqCgw6vzHC8ddtRrviFHAuWmix6Dh3O0I7MMmy+q4HjMqvrEZ4FST2jvwJ4ueUjOQ==",
+  "dgSpecHash": "Fr1bCfJ+vzax8gfGUQxtuFWA8QT57MtakzWpYYW6WXXcZWnKGiNYMLXrZyHWUZ7vp8B4cnFz1ehEUckJwN5CLw==",
   "success": true,
   "projectFilePath": "D:\\EZSave\\EZSave\\EZSave.WPF\\EZSave.WPF.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,8 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\serilog\\4.0.0\\serilog.4.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\serilog.sinks.file\\6.0.0\\serilog.sinks.file.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

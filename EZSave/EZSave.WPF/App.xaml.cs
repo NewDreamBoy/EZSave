@@ -16,14 +16,16 @@ namespace EZSave.WPF
     public partial class App : Application
     {
         public static IServiceProvider ServiceProvider { get; private set; }
-
+        private ILogger<App> appLogger;
         private IHost _host;
 
         protected override void OnStartup(StartupEventArgs e)
         {
             AppInit();
             ServiceProvider = _host.Services;
-            var initialGuidanceWindow = _host.Services.GetRequiredService<InitialGuidanceWindow>();
+            appLogger = ServiceProvider.GetRequiredService<ILogger<App>>();
+            appLogger.LogInformation("应用程序初始化完毕，启动!");
+            var initialGuidanceWindow = ServiceProvider.GetRequiredService<InitialGuidanceWindow>();
             initialGuidanceWindow.Show();
             base.OnStartup(e);
         }

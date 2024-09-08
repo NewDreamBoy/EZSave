@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sbeoktTh7U0v3yVVq3PWdtCZLvS2JLJgykNFbRS5iWDRsvYXdNNd6SQkcDPpqWC7tTNNy4qDZXcxcGwvLQnGgQ==",
+  "dgSpecHash": "9S1jODyLabHKc+a7dXgYjQpj/ZvIW787GPzVZjtj2PDVzKBPTr51/BNU+hogkV4dcUhDFfECpZyy557kQ5WiFg==",
   "success": true,
   "projectFilePath": "D:\\EZSave\\EZSave\\EZSave.WPF\\EZSave.WPF.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.122\\microsoft.xaml.behaviors.wpf.1.1.122.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\serilog\\4.0.1\\serilog.4.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\serilog.extensions.logging\\8.0.0\\serilog.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\serilog.settings.configuration\\8.0.2\\serilog.settings.configuration.8.0.2.nupkg.sha512",

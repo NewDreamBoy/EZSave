@@ -1,0 +1,85 @@
+2024-09-08 10:23:22.542 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 10:23:22.593 +08:00 [INF] 旧用户
+2024-09-08 10:23:40.476 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 10:23:40.544 +08:00 [INF] 新用户
+2024-09-08 10:28:37.886 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 10:28:37.940 +08:00 [INF] 旧用户
+2024-09-08 10:28:47.122 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 10:28:47.180 +08:00 [INF] 新用户
+2024-09-08 10:29:21.453 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 10:29:21.515 +08:00 [INF] 旧用户
+2024-09-08 10:29:30.163 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 10:29:30.224 +08:00 [INF] 新用户
+2024-09-08 10:32:07.471 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 10:32:07.530 +08:00 [INF] 旧用户
+2024-09-08 10:32:19.351 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 10:32:19.406 +08:00 [INF] 新用户
+2024-09-08 10:48:24.043 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 10:48:24.107 +08:00 [INF] 旧用户
+2024-09-08 11:00:32.995 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 11:00:33.044 +08:00 [INF] 旧用户
+2024-09-08 11:00:55.973 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 11:00:56.039 +08:00 [INF] 新用户
+2024-09-08 11:00:56.223 +08:00 [ERR] 加载图片失败
+System.IO.IOException: 找不到资源“resources/images/bg/%e5%bc%80%e5%a7%8b%e5%bc%95%e5%af%bcbg1.png”。
+   at MS.Internal.AppModel.ResourcePart.GetStreamCore(FileMode mode, FileAccess access)
+   at System.IO.Packaging.PackagePart.GetStream(FileMode mode, FileAccess access)
+   at MS.Internal.IO.Packaging.PackagePartExtensions.GetSeekableStream(PackagePart packPart, FileMode mode, FileAccess access)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.GetResponseStream()
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at System.Windows.Media.Imaging.BitmapImage.EndInit()
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource, RequestCachePolicy uriCachePolicy)
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource)
+   at EZSave.WPF.Services.ImageService.LoadImage(String imageName, ImageType imageType) in D:\EZSave\EZSave\EZSave.WPF\Services\ImageService.cs:line 37
+2024-09-08 11:01:37.546 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 11:01:37.602 +08:00 [INF] 旧用户
+2024-09-08 11:01:44.532 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 11:01:44.589 +08:00 [INF] 新用户
+2024-09-08 11:01:44.751 +08:00 [ERR] 加载图片失败
+System.IO.IOException: 找不到资源“resources/images/bg/%e5%bc%80%e5%a7%8b%e5%bc%95%e5%af%bcbg.png”。
+   at MS.Internal.AppModel.ResourcePart.GetStreamCore(FileMode mode, FileAccess access)
+   at System.IO.Packaging.PackagePart.GetStream(FileMode mode, FileAccess access)
+   at MS.Internal.IO.Packaging.PackagePartExtensions.GetSeekableStream(PackagePart packPart, FileMode mode, FileAccess access)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.GetResponseStream()
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at System.Windows.Media.Imaging.BitmapImage.EndInit()
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource, RequestCachePolicy uriCachePolicy)
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource)
+   at EZSave.WPF.Services.ImageService.LoadImage(String imageName, ImageType imageType) in D:\EZSave\EZSave\EZSave.WPF\Services\ImageService.cs:line 37
+2024-09-08 11:02:30.110 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 11:02:30.160 +08:00 [INF] 新用户
+2024-09-08 11:03:15.117 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 11:03:15.195 +08:00 [INF] 新用户
+2024-09-08 11:03:48.418 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 11:03:48.494 +08:00 [INF] 新用户
+2024-09-08 15:37:39.296 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 15:37:39.342 +08:00 [INF] 旧用户
+2024-09-08 15:38:34.046 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 15:38:34.101 +08:00 [INF] 新用户
+2024-09-08 15:39:14.749 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 15:39:14.805 +08:00 [INF] 新用户
+2024-09-08 15:40:02.081 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 15:40:02.160 +08:00 [INF] 新用户
+2024-09-08 15:40:48.294 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-08 15:40:48.362 +08:00 [INF] 新用户
+2024-09-08 15:40:48.523 +08:00 [ERR] 加载图片失败
+System.NotSupportedException: The URI prefix is not recognized.
+   at System.Net.WebRequest.Create(Uri requestUri, Boolean useUriBase)
+   at System.Net.WebRequest.Create(Uri requestUri)
+   at MS.Internal.WpfWebRequestHelper.CreateRequest(Uri uri)
+   at System.IO.Packaging.PackWebRequest.GetRequest(Boolean allowPseudoRequest)
+   at System.IO.Packaging.PackWebRequest.GetResponse()
+   at MS.Internal.WpfWebRequestHelper.GetResponse(WebRequest request)
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at System.Windows.Media.Imaging.BitmapImage.EndInit()
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource, RequestCachePolicy uriCachePolicy)
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource)
+   at EZSave.WPF.Services.ImageService.LoadImage(String imageName, ImageType imageType) in D:\EZSave\EZSave\EZSave.WPF\Services\ImageService.cs:line 37

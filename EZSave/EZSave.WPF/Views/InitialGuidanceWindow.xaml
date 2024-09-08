@@ -6,15 +6,22 @@
     xmlns:local="clr-namespace:EZSave.WPF.Views"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:utilities="clr-namespace:EZSave.WPF.Utilities.AttachedProperties"
-    Title="引导"
+    Title="EzSave"
     Width="1024"
     Height="600"
     utilities:ViewModelLocator.AutoWireViewModel="True"
     mc:Ignorable="d">
     <Grid>
-        <StackPanel>
-            <TextBlock Text="{Binding Title}" />
-            <Button Width="130" Height="40" Margin="5" Command="{Binding AddPlanCommand}" />
-        </StackPanel>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid ColumnSpan="3">
+            <Image Source="{Binding BgImage}" />
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="100" Text="123" />
+        </Grid>
+
     </Grid>
 </Window>

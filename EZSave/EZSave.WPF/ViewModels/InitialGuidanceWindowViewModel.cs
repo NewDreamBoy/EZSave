@@ -1,5 +1,8 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using System.Windows.Media.Imaging;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using EZSave.WPF.Common;
+using EZSave.WPF.Services;
 using Microsoft.Extensions.Logging;
 
 namespace EZSave.WPF.ViewModels
@@ -8,16 +11,22 @@ namespace EZSave.WPF.ViewModels
     {
 
         private readonly ILogger<InitialGuidanceWindowViewModel> _logger;
+        private readonly IImageService _imageService;
 
-        public InitialGuidanceWindowViewModel(ILogger<InitialGuidanceWindowViewModel> logger)
+        public InitialGuidanceWindowViewModel(ILogger<InitialGuidanceWindowViewModel> logger, IImageService imageService)
         {
             this._logger = logger;
-            _logger.LogTrace("LogDebug 应该不输出把");
-            _logger.LogWarning("InitialGuidanceWindowViewModel 报警");
+            this._imageService = imageService;
+            BgImage = _imageService.LoadImage("开始引导Bg.png", ImageType.Bg);
         }
+  
 
         [ObservableProperty]
         private string _title = "引导窗口";
+
+        [ObservableProperty]
+        private BitmapImage _bgImage;
+
 
         [RelayCommand]
         private void AddPlan()
@@ -25,5 +34,9 @@ namespace EZSave.WPF.ViewModels
             Title = "添加计划";
         }
 
+        public override void ViewWindowInit()
+        {
+            BgImage = _imageService.LoadImage("开始引导Bg.png", ImageType.Bg);
+        }
     }
 }

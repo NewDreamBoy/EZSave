@@ -65,3 +65,6 @@ D:\EZSave\EZSave\EZSave.WPF\bin\Debug\net6.0-windows\Microsoft.Extensions.Depend
 D:\EZSave\EZSave\EZSave.WPF\bin\Debug\net6.0-windows\Serilog.Extensions.Logging.dll
 D:\EZSave\EZSave\EZSave.WPF\bin\Debug\net6.0-windows\Serilog.Settings.Configuration.dll
 D:\EZSave\EZSave\EZSave.WPF\bin\Debug\net6.0-windows\Serilog.Sinks.Console.dll
+D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\Views\MainWindow.baml
+D:\EZSave\EZSave\EZSave.WPF\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll

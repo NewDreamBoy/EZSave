@@ -1,4 +1,5 @@
-﻿using EZSave.WPF.Utilities;
+﻿using EZSave.WPF.Services;
+using EZSave.WPF.Utilities;
 using EZSave.WPF.Views;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,30 +23,58 @@ namespace EZSave.WPF
 
         protected override void OnStartup(StartupEventArgs e)
         {
-            AppInit();
-            ServiceProvider = _host.Services;
-            appLogger = ServiceProvider.GetRequiredService<ILogger<App>>();
-            appLogger.LogInformation("应用程序初始化完毕，启动!");
-            var initialGuidanceWindow = ServiceProvider.GetRequiredService<InitialGuidanceWindow>();
-            initialGuidanceWindow.Show();
-            base.OnStartup(e);
+            try
+            {
+                AppInit();
+                ServiceProvider = _host.Services;
+                appLogger = ServiceProvider.GetRequiredService<ILogger<App>>();
+                appLogger.LogInformation("应用程序初始化完毕，启动!");
+                if (CheckIfNewUser())
+                {
+                    var initialGuidanceWindow = ServiceProvider.GetRequiredService<InitialGuidanceWindow>();
+                    initialGuidanceWindow.Show();
+                }
+                else
+                {
+                    var mainWindow = ServiceProvider.GetRequiredService<MainWindow>();
+                    mainWindow.Show();
+                }
+                base.OnStartup(e);
+            }
+            catch (Exception ex)
+            {
+                appLogger.LogError(ex, "应用程序启动失败");
+                throw;
+            }
         }
 
         private void AppInit()
         {
             _host = Host.CreateDefaultBuilder().ConfigureAppConfiguration((context, config) =>
             {
-                //获取应用程序根目录
-                var basePath = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"..\..\.."));
+                // 获取当前工作目录
+                var basePath = Directory.GetCurrentDirectory();
                 //设置配置文件目录
                 config.SetBasePath(basePath);
                 //加载配置文件
-                config.AddJsonFile($"Configurations/appsettings.{Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT")}.json", optional: true, reloadOnChange: true);
+                config.AddJsonFile(Path.Combine(basePath, "Configurations", $"appsettings.{Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT") ?? "Production"}.json"), optional: true, reloadOnChange: true);
             }).ConfigureServices((context, services) =>
             {
-                //注入服务
+                #region View ViewModel注入
+
+                //自动注入继承自 ViewModelBase 的 ViewModel
                 services.AddViewModels(Assembly.GetExecutingAssembly());
                 services.AddTransient<InitialGuidanceWindow>();
+                services.AddTransient<MainWindow>();
+
+                #endregion
+
+                #region 其他服务
+
+                services.AddTransient<IImageService, ImageService>();
+
+                #endregion
+
             }).ConfigureLogging((context, logging) =>
             {
                 // 清除其他日志提供程序
@@ -56,6 +85,22 @@ namespace EZSave.WPF
                 //使用 Serilog 作为日志提供程序
                 logging.AddSerilog();
             }).Build();
+        }
+
+        public bool CheckIfNewUser()
+        {
+            var filePath = Directory.GetCurrentDirectory() + @"\Data";
+            if (Directory.Exists(filePath))
+            {
+                appLogger.LogInformation("旧用户");
+                return false;
+            }
+            else
+            {
+                Directory.CreateDirectory(filePath);
+                appLogger.LogInformation("新用户");
+                return true;
+            }
         }
     }
 }

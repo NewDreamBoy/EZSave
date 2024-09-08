@@ -2,7 +2,8 @@
 
 namespace EZSave.WPF.ViewModels
 {
-    public class ViewModelBase : ObservableObject
+    public abstract class ViewModelBase : ObservableObject
     {
+        public abstract void ViewWindowInit();
     }
 }

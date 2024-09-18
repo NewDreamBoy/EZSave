@@ -4,17 +4,17 @@
 exe
 C#
 .cs
-D:\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\
+D:\Project\EZSave\EZSave\EZSave.WPF\obj\Debug\net6.0-windows\
 EZSave.WPF
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\EZSave\EZSave\EZSave.WPF\App.xaml
+D:\Project\EZSave\EZSave\EZSave.WPF\App.xaml
 21560491891
 
-16210484660
-229908270102
+15-515080321
+2291011720770
 Views\InitialGuidanceWindow.xaml;Views\MainWindow.xaml;
 
-False
+True
 

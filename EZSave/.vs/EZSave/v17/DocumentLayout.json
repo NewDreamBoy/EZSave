@@ -1,61 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\EZSave\\EZSave\\",
+  "WorkspaceRootPath": "D:\\Project\\EZSave\\EZSave\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\viewmodels\\initialguidancewindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\viewmodels\\initialguidancewindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\views\\initialguidancewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\views\\initialguidancewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\common\\imagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\common\\imagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\services\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\services\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\services\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\utilities\\attachedproperties\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\common\\imagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\common\\imagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\viewmodels\\initialguidancewindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\viewmodels\\initialguidancewindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\views\\initialguidancewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\views\\initialguidancewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\utilities\\attachedproperties\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\utilities\\attachedproperties\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\utilities\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\utilities\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\utilities\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\configurations\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\configurations\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\configurations\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\configurations\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\configurations\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\configurations\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\ezsave\\ezsave\\ezsave.wpf\\utilities\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|d:\\project\\ezsave\\ezsave\\ezsave.wpf\\utilities\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58AFAF6C-E326-4165-8ADA-3D43E4EDB2E0}|EZSave.WPF\\EZSave.WPF.csproj|solutionrelative:ezsave.wpf\\utilities\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,23 +66,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\ViewModels\\ViewModelBase.cs",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "EZSave.WPF\\ViewModels\\ViewModelBase.cs",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\ViewModels\\ViewModelBase.cs",
               "RelativeToolTip": "EZSave.WPF\\ViewModels\\ViewModelBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,48 +82,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "ImageType.cs",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\Common\\ImageType.cs",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Common\\ImageType.cs",
               "RelativeDocumentMoniker": "EZSave.WPF\\Common\\ImageType.cs",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\Common\\ImageType.cs",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Common\\ImageType.cs",
               "RelativeToolTip": "EZSave.WPF\\Common\\ImageType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T02:53:06.869Z"
+              "WhenOpened": "2024-09-08T02:53:06.869Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ImageService.cs",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\Services\\ImageService.cs",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Services\\ImageService.cs",
               "RelativeDocumentMoniker": "EZSave.WPF\\Services\\ImageService.cs",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\Services\\ImageService.cs",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Services\\ImageService.cs",
               "RelativeToolTip": "EZSave.WPF\\Services\\ImageService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAADwvyMAAAA6AAAA",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA3wAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T02:10:53.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "IImageService.cs",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\Services\\IImageService.cs",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Services\\IImageService.cs",
               "RelativeDocumentMoniker": "EZSave.WPF\\Services\\IImageService.cs",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\Services\\IImageService.cs",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Services\\IImageService.cs",
               "RelativeToolTip": "EZSave.WPF\\Services\\IImageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T02:10:23.928Z"
+              "WhenOpened": "2024-09-08T02:10:23.928Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "appsettings.Production.json",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\Configurations\\appsettings.Production.json",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Configurations\\appsettings.Production.json",
               "RelativeDocumentMoniker": "EZSave.WPF\\Configurations\\appsettings.Production.json",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\Configurations\\appsettings.Production.json",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Configurations\\appsettings.Production.json",
               "RelativeToolTip": "EZSave.WPF\\Configurations\\appsettings.Production.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -139,11 +133,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\ViewModels\\MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "EZSave.WPF\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "EZSave.WPF\\ViewModels\\MainWindowViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -153,9 +147,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\Views\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "EZSave.WPF\\Views\\MainWindow.xaml",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\Views\\MainWindow.xaml",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Views\\MainWindow.xaml",
               "RelativeToolTip": "EZSave.WPF\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-09-06T08:59:24.317Z"
@@ -164,9 +158,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\Configurations\\appsettings.Development.json",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Configurations\\appsettings.Development.json",
               "RelativeDocumentMoniker": "EZSave.WPF\\Configurations\\appsettings.Development.json",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\Configurations\\appsettings.Development.json",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Configurations\\appsettings.Development.json",
               "RelativeToolTip": "EZSave.WPF\\Configurations\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -176,9 +170,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\Utilities\\ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Utilities\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "EZSave.WPF\\Utilities\\ServiceCollectionExtensions.cs",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\Utilities\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Utilities\\ServiceCollectionExtensions.cs",
               "RelativeToolTip": "EZSave.WPF\\Utilities\\ServiceCollectionExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -186,13 +180,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "InitialGuidanceWindowViewModel.cs",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\ViewModels\\InitialGuidanceWindowViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\ViewModels\\InitialGuidanceWindowViewModel.cs",
               "RelativeDocumentMoniker": "EZSave.WPF\\ViewModels\\InitialGuidanceWindowViewModel.cs",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\ViewModels\\InitialGuidanceWindowViewModel.cs",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\ViewModels\\InitialGuidanceWindowViewModel.cs",
               "RelativeToolTip": "EZSave.WPF\\ViewModels\\InitialGuidanceWindowViewModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAswBgAAAAnAAAA",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T14:41:35.187Z",
               "EditorCaption": ""
@@ -201,9 +195,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "ViewModelLocator.cs",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\Utilities\\ViewModelLocator.cs",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Utilities\\ViewModelLocator.cs",
               "RelativeDocumentMoniker": "EZSave.WPF\\Utilities\\ViewModelLocator.cs",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\Utilities\\ViewModelLocator.cs",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Utilities\\ViewModelLocator.cs",
               "RelativeToolTip": "EZSave.WPF\\Utilities\\ViewModelLocator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -213,9 +207,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "ViewModelLocator.cs",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\Utilities\\AttachedProperties\\ViewModelLocator.cs",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Utilities\\AttachedProperties\\ViewModelLocator.cs",
               "RelativeDocumentMoniker": "EZSave.WPF\\Utilities\\AttachedProperties\\ViewModelLocator.cs",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\Utilities\\AttachedProperties\\ViewModelLocator.cs",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Utilities\\AttachedProperties\\ViewModelLocator.cs",
               "RelativeToolTip": "EZSave.WPF\\Utilities\\AttachedProperties\\ViewModelLocator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -223,11 +217,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "InitialGuidanceWindow.xaml",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\Views\\InitialGuidanceWindow.xaml",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Views\\InitialGuidanceWindow.xaml",
               "RelativeDocumentMoniker": "EZSave.WPF\\Views\\InitialGuidanceWindow.xaml",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\Views\\InitialGuidanceWindow.xaml",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\Views\\InitialGuidanceWindow.xaml",
               "RelativeToolTip": "EZSave.WPF\\Views\\InitialGuidanceWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-09-01T09:06:14.866Z",
@@ -235,13 +229,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\EZSave\\EZSave\\EZSave.WPF\\App.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\App.xaml.cs",
               "RelativeDocumentMoniker": "EZSave.WPF\\App.xaml.cs",
-              "ToolTip": "D:\\EZSave\\EZSave\\EZSave.WPF\\App.xaml.cs",
+              "ToolTip": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\App.xaml.cs",
               "RelativeToolTip": "EZSave.WPF\\App.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAywE0AAAAxAAAA",
+              "ViewState": "AgIAADIAAAAAAAAAAAA/wE4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T03:01:59.139Z",
               "EditorCaption": ""

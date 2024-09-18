@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9S1jODyLabHKc+a7dXgYjQpj/ZvIW787GPzVZjtj2PDVzKBPTr51/BNU+hogkV4dcUhDFfECpZyy557kQ5WiFg==",
+  "dgSpecHash": "Sd6ZdayL0SM=",
   "success": true,
-  "projectFilePath": "D:\\EZSave\\EZSave\\EZSave.WPF\\EZSave.WPF.csproj",
+  "projectFilePath": "D:\\Project\\EZSave\\EZSave\\EZSave.WPF\\EZSave.WPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.mvvm\\8.3.0\\communitytoolkit.mvvm.8.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
@@ -43,7 +43,11 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
   ],
   "logs": []
 }

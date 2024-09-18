@@ -1,0 +1,21 @@
+2024-09-18 15:40:20.385 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-18 15:40:20.424 +08:00 [INF] 新用户
+2024-09-18 15:40:20.758 +08:00 [ERR] 加载图片失败
+System.NotSupportedException: The URI prefix is not recognized.
+   at System.Net.WebRequest.Create(Uri requestUri, Boolean useUriBase)
+   at System.Net.WebRequest.Create(Uri requestUri)
+   at MS.Internal.WpfWebRequestHelper.CreateRequest(Uri uri)
+   at System.IO.Packaging.PackWebRequest.GetRequest(Boolean allowPseudoRequest)
+   at System.IO.Packaging.PackWebRequest.GetResponse()
+   at MS.Internal.WpfWebRequestHelper.GetResponse(WebRequest request)
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at System.Windows.Media.Imaging.BitmapImage.EndInit()
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource, RequestCachePolicy uriCachePolicy)
+   at System.Windows.Media.Imaging.BitmapImage..ctor(Uri uriSource)
+   at EZSave.WPF.Services.ImageService.LoadImage(String imageName, ImageType imageType) in D:\Project\EZSave\EZSave\EZSave.WPF\Services\ImageService.cs:line 37
+2024-09-18 15:42:25.041 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-18 15:42:25.085 +08:00 [INF] 新用户
+2024-09-18 15:44:35.565 +08:00 [INF] 应用程序初始化完毕，启动!
+2024-09-18 15:44:35.617 +08:00 [INF] 新用户

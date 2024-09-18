@@ -33,7 +33,7 @@ namespace EZSave.WPF.Services
 
                 if (!string.IsNullOrWhiteSpace(path))
                 {
-                    var uri = new Uri("pack://application:,/EZSave.WPF;component/" + path);
+                    var uri = new Uri("pack://application:,,,/EZSave.WPF;component/" + path);
                     var image = new BitmapImage(uri);
                     return image;
                 }

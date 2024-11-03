@@ -1,0 +1,30 @@
+2024-11-03 15:59:03.888 +08:00 [INF] EZSave.Main.App 新用户
+2024-11-03 15:59:04.346 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-03 16:09:10.052 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-03 16:09:10.817 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-03 16:09:25.675 +08:00 [INF] EZSave.Main.App 新用户
+2024-11-03 16:09:26.273 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-03 16:09:51.653 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-03 16:09:52.404 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-03 16:10:18.539 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-03 16:10:19.110 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-03 16:14:40.014 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-03 16:14:40.200 +08:00 [ERR] EZSave.Main.Core.Services.Implementations.GetImageService 加载图片失败
+System.IO.FileNotFoundException: Could not load file or assembly 'EZSave.WPF, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'EZSave.WPF, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at System.Windows.Navigation.BaseUriHelper.GetLoadedAssembly(String assemblyName, String assemblyVersion, String assemblyKey)
+   at MS.Internal.AppModel.ResourceContainer.GetResourceManagerWrapper(Uri uri, String& partName, Boolean& isContentFile)
+   at MS.Internal.AppModel.ResourceContainer.GetPartCore(Uri uri)
+   at System.IO.Packaging.Package.GetPartHelper(Uri partUri)
+   at System.IO.Packaging.Package.GetPart(Uri partUri)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at EZSave.Main.Core.Services.Implementations.GetImageService.LoadImage(String imageName, ImageType imageType) in D:\MyProject\EZSave\EZSave\EZSave.Main\Core\Services\Implementations\GetImageService.cs:line 40
+2024-11-03 16:14:40.784 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-03 16:15:44.896 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-03 16:16:33.413 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-03 16:16:40.857 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕

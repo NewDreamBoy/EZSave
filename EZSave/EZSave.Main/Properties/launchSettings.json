@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "EZSave.Main": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+2024-11-04 14:29:02.641 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 14:29:03.374 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 15:02:04.312 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 15:02:04.871 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 15:15:30.659 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 15:15:31.222 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 15:16:34.207 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 15:16:34.787 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 16:16:33.044 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 16:16:33.616 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 16:20:08.927 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 16:20:09.101 +08:00 [ERR] EZSave.Main.Core.Services.Implementations.GetImageService 加载图片失败
+System.IO.IOException: 找不到资源“resources/images/icons/%e5%bc%95%e5%af%bc%e9%a1%b5-%e6%b7%bb%e5%8a%a0.png”。
+   at MS.Internal.AppModel.ResourcePart.GetStreamCore(FileMode mode, FileAccess access)
+   at System.IO.Packaging.PackagePart.GetStream(FileMode mode, FileAccess access)
+   at MS.Internal.IO.Packaging.PackagePartExtensions.GetSeekableStream(PackagePart packPart, FileMode mode, FileAccess access)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.Windows.Media.Imaging.BitmapDecoder.SetupDecoderFromUriOrStream(Uri uri, Stream stream, BitmapCacheOption cacheOption, Guid& clsId, Boolean& isOriginalWritable, Stream& uriStream, UnmanagedMemoryStream& unmanagedMemoryStream, SafeFileHandle& safeFilehandle)
+   at System.Windows.Media.Imaging.BitmapDecoder.CreateFromUriOrStream(Uri baseUri, Uri uri, Stream stream, BitmapCreateOptions createOptions, BitmapCacheOption cacheOption, RequestCachePolicy uriCachePolicy, Boolean insertInDecoderCache)
+   at System.Windows.Media.Imaging.BitmapImage.FinalizeCreation()
+   at EZSave.Main.Core.Services.Implementations.GetImageService.LoadImage(String imageName, ImageType imageType) in D:\MyProject\EZSave\EZSave\EZSave.Main\Core\Services\Implementations\GetImageService.cs:line 36
+2024-11-04 16:20:09.589 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 16:20:55.522 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 16:22:09.840 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 16:22:14.629 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 16:22:32.495 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 16:22:33.119 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 16:23:07.514 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 16:23:08.264 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 16:23:41.060 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 16:23:41.642 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 16:26:39.332 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 16:26:39.827 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 16:29:32.426 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 16:29:33.000 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 16:31:05.800 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 16:31:06.395 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 16:32:06.846 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 16:32:07.346 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕
+2024-11-04 16:32:48.458 +08:00 [INF] EZSave.Main.App 旧用户
+2024-11-04 16:32:48.963 +08:00 [INF] EZSave.Main.App 应用程序初始化完毕

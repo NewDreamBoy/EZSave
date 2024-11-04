@@ -60,3 +60,5 @@ D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\EZSave.Main.genr
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\ref\EZSave.Main.dll
 D:\MyProject\EZSave\EZSave\EZSave.Main\bin\Debug\net8.0-windows\Configurations\appsettings.Development.json
 D:\MyProject\EZSave\EZSave\EZSave.Main\bin\Debug\net8.0-windows\Configurations\appsettings.Production.json
+D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\App.baml
+D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\EZSave.Main.sourcelink.json

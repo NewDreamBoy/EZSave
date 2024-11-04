@@ -22,15 +22,11 @@ namespace EZSave.Main.Core.Services.Implementations
                 switch (imageType)
                 {
                     case ImageType.Bg:
-                        path = "Resources/Images/Bg/" + imageName;
+                        path = "Resources/Images/Bgs/" + imageName;
                         break;
 
                     case ImageType.Icon:
-                        path = "Resources/Images/Icon/" + imageName;
-                        break;
-
-                    case ImageType.Ui:
-                        path = "Resources/Images/Ui/" + imageName;
+                        path = "Resources/Images/Icons/" + imageName;
                         break;
                 }
 

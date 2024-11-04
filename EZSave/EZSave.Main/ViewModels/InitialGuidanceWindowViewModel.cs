@@ -2,7 +2,6 @@
 using CommunityToolkit.Mvvm.Input;
 using EZSave.Main.Common;
 using EZSave.Main.Core.Services.Interfaces;
-using EZSave.Main.Infrastructure;
 using Microsoft.Extensions.Logging;
 using System.Windows.Media.Imaging;
 using EZSave.Main.Infrastructure.AutoVMBinding;
@@ -15,15 +14,23 @@ namespace EZSave.Main.ViewModels
         private readonly IGetImageService _getImageService;
 
         [ObservableProperty]
-        private string _title = "引导窗口";
+        private string _title = "添加计划";
+
+        #region 图片资源
 
         [ObservableProperty]
         private BitmapImage _bgImage;
 
+        [ObservableProperty]
+        private BitmapImage _AddPlanIcon;
+
+        #endregion
+
+
         [RelayCommand]
         private void AddPlan()
         {
-            Title = "添加计划";
+           
         }
 
         public InitialGuidanceWindowViewModel(ILogger<InitialGuidanceWindowViewModel> logger, IGetImageService getImageService)
@@ -35,7 +42,8 @@ namespace EZSave.Main.ViewModels
 
         public override void ViewWindowInit()
         {
-            BgImage = _getImageService.LoadImage("开始引导Bg.png", ImageType.Bg);
+            BgImage = _getImageService.LoadImage("引导页-开始引导Bg.png", ImageType.Bg);
+            AddPlanIcon = _getImageService.LoadImage("引导页-添加.png", ImageType.Icon);
         }
     }
 }

@@ -1,5 +1,4 @@
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\EZSave.Main.csproj.AssemblyReference.cache
-D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\InitialGuidanceWindow.g.cs
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\App.g.cs
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
@@ -45,7 +44,6 @@ D:\MyProject\EZSave\EZSave\EZSave.Main\bin\Debug\net8.0-windows\Serilog.Settings
 D:\MyProject\EZSave\EZSave\EZSave.Main\bin\Debug\net8.0-windows\Serilog.Sinks.File.dll
 D:\MyProject\EZSave\EZSave\EZSave.Main\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
 D:\MyProject\EZSave\EZSave\EZSave.Main\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
-D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\InitialGuidanceWindow.baml
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\MainWindow.baml
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\EZSave.Main.g.resources
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\EZSave.Main.GeneratedMSBuildEditorConfig.editorconfig
@@ -62,3 +60,8 @@ D:\MyProject\EZSave\EZSave\EZSave.Main\bin\Debug\net8.0-windows\Configurations\a
 D:\MyProject\EZSave\EZSave\EZSave.Main\bin\Debug\net8.0-windows\Configurations\appsettings.Production.json
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\App.baml
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\EZSave.Main.sourcelink.json
+D:\MyProject\EZSave\EZSave\EZSave.Main\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\HomeView.g.cs
+D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\WelcomeView.g.cs
+D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\HomeView.baml
+D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\WelcomeView.baml

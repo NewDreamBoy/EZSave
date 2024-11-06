@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Text.RegularExpressions;
 using System.Windows;
 
 namespace EZSave.Main.Infrastructure.AutoVMBinding
@@ -23,7 +24,12 @@ namespace EZSave.Main.Infrastructure.AutoVMBinding
             //是否在设计器模式下
             if (DesignerProperties.GetIsInDesignMode(d)) return;
             var viewType = d.GetType();
-            var viewModelName = $"{viewType.FullName}ViewModel";  // 直接在全名后添加 "ViewModel"
+            //适应视图名结尾带View和不带View的的情况
+            //例如：MainWindow和MainWindowView
+            //MainWindow就直接在后面加ViewModel
+            //MainWindowView就先去掉View再在后面加ViewModel
+            var viewModelName = Regex.Replace(viewType.FullName, @"View$", "ViewModel");
+            if (viewModelName == viewType.FullName) viewModelName = $"{viewType.FullName}ViewModel";  // 直接在全名后添加 "ViewModel"
             viewModelName = viewModelName.Replace(".Views.", ".ViewModels.");  // 转换命名空间
             if (string.IsNullOrEmpty(viewModelName)) return;
             var viewModelType = viewType.Assembly.GetType(viewModelName);

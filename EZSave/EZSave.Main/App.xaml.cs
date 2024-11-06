@@ -44,9 +44,11 @@ namespace EZSave.Main
             {
                 //VM自动绑定
                 services.AddAutoVmBinding(Assembly.GetExecutingAssembly());
-                services.AddTransient<InitialGuidanceWindow>();
-                services.AddTransient<MainWindow>();
+                services.AddSingleton<MainWindow>();
+                services.AddTransient<WelcomeView>();
+                services.AddTransient<HomeView>();
                 services.AddTransient<IGetImageService, GetImageService>();
+                services.AddTransient<INavigationService, NavigationService>();
             }).ConfigureLogging((context, logging) =>
             {
                 logging.ClearProviders();
@@ -60,20 +62,9 @@ namespace EZSave.Main
             AppServiceProvider = _host.Services;
             appLogger = AppServiceProvider.GetRequiredService<ILogger<App>>();
 
-            var filePath = Directory.GetCurrentDirectory() + @"\Data";
-            if (Directory.Exists(filePath))
-            {
-                appLogger.LogInformation("旧用户");
-                var initialGuidanceWindow = AppServiceProvider.GetRequiredService<InitialGuidanceWindow>();
-                initialGuidanceWindow.Show();
-            }
-            else
-            {
-                appLogger.LogInformation("新用户");
-                Directory.CreateDirectory(filePath);
-                var mainWindow = AppServiceProvider.GetRequiredService<MainWindow>();
-                mainWindow.Show();
-            }
+            //初始化主界面
+            var mainWindow = AppServiceProvider.GetRequiredService<MainWindow>();
+            mainWindow.Show();
 
             appLogger.LogInformation("应用程序初始化完毕");
         }

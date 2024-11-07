@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EZSave.Main")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e03af69f885b8239323880a9a1b4b4fd7c0fe5ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3c59effa7aedf88b4845492a122fd1ddbc5b139")]
 [assembly: System.Reflection.AssemblyProductAttribute("EZSave.Main")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EZSave.Main")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

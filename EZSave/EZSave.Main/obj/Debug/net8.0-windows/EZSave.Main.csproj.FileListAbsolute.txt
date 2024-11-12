@@ -65,3 +65,10 @@ D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\HomeView.g
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\WelcomeView.g.cs
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\HomeView.baml
 D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\WelcomeView.baml
+D:\MyProject\EZSave\EZSave\EZSave.Main\bin\Debug\net8.0-windows\HandyControl.dll
+D:\MyProject\EZSave\EZSave\EZSave.Main\bin\Debug\net8.0-windows\EZSave.Model.dll
+D:\MyProject\EZSave\EZSave\EZSave.Main\bin\Debug\net8.0-windows\EZSave.Model.pdb
+D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\PlanTemplateSelectionControl.g.cs
+D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\PlanTemplateSelectionControl.baml
+D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\Testhandycontrol.g.cs
+D:\MyProject\EZSave\EZSave\EZSave.Main\obj\Debug\net8.0-windows\Views\Testhandycontrol.baml

@@ -44,11 +44,24 @@ namespace EZSave.Main
             {
                 //VM自动绑定
                 services.AddAutoVmBinding(Assembly.GetExecutingAssembly());
+
+                #region 注入View视图
+
                 services.AddSingleton<MainWindow>();
                 services.AddTransient<WelcomeView>();
                 services.AddTransient<HomeView>();
+                services.AddTransient<PlanTemplateSelectionControl>();
+
+                #endregion
+
+                #region 注入服务
+
                 services.AddTransient<IGetImageService, GetImageService>();
                 services.AddTransient<INavigationService, NavigationService>();
+
+                #endregion
+
+
             }).ConfigureLogging((context, logging) =>
             {
                 logging.ClearProviders();

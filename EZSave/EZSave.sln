@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EZSave.Main", "EZSave.Main\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EZSave.Core", "EZSave.Core\EZSave.Core.csproj", "{D2DC9956-E288-405B-8A14-6944D3518F14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZSave.Model", "EZSave.Model\EZSave.Model.csproj", "{4684D4B1-132D-46AD-9B2D-3F6236F60C24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D2DC9956-E288-405B-8A14-6944D3518F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2DC9956-E288-405B-8A14-6944D3518F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2DC9956-E288-405B-8A14-6944D3518F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4684D4B1-132D-46AD-9B2D-3F6236F60C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4684D4B1-132D-46AD-9B2D-3F6236F60C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4684D4B1-132D-46AD-9B2D-3F6236F60C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4684D4B1-132D-46AD-9B2D-3F6236F60C24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

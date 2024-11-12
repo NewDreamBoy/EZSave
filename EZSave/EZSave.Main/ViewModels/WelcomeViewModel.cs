@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.Input;
 using EZSave.Main.Common;
 using EZSave.Main.Core.Services.Interfaces;
 using EZSave.Main.Infrastructure.AutoVMBinding;
+using EZSave.Main.Views;
 using Microsoft.Extensions.Logging;
 using System.Windows.Media.Imaging;
 
@@ -12,6 +13,7 @@ namespace EZSave.Main.ViewModels
     {
         private readonly ILogger<WelcomeViewModel> _logger;
         private readonly IGetImageService _getImageService;
+        private readonly INavigationService _navigationService;
 
         [ObservableProperty]
         private string _title = "添加计划";
@@ -26,10 +28,13 @@ namespace EZSave.Main.ViewModels
 
         #endregion 图片资源
 
-        public WelcomeViewModel(ILogger<WelcomeViewModel> logger, IGetImageService getImageService)
+        public WelcomeViewModel(
+            ILogger<WelcomeViewModel> logger, IGetImageService getImageService,
+            INavigationService navigationService)
         {
             this._logger = logger;
             this._getImageService = getImageService;
+            _navigationService = navigationService;
             VmInitialize();
         }
 
@@ -42,6 +47,7 @@ namespace EZSave.Main.ViewModels
         [RelayCommand]
         private void AddPlan()
         {
+            _navigationService.NavigateTo<PlanTemplateSelectionControl>();
         }
     }
 }

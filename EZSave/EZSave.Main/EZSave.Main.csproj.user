@@ -13,6 +13,12 @@
     <Compile Update="Views\MainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\PlanTemplateSelectionControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Testhandycontrol.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\WelcomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,6 +28,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PlanTemplateSelectionControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Testhandycontrol.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\WelcomeView.xaml">

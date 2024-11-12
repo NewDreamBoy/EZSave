@@ -2,14 +2,23 @@
     x:Class="EZSave.Main.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:hc="https://handyorg.github.io/handycontrol"
     xmlns:local="clr-namespace:EZSave.Main">
     <Application.Resources>
-        <FontFamily x:Key="SiYuanHeiTiNormal">pack://application:,,,/EZSave.Main;component/Resources/Fonts/#思源黑体 Normal</FontFamily>
-        <FontFamily x:Key="SiYuanHeiTiMedium">pack://application:,,,/EZSave.Main;component/Resources/Fonts/#思源黑体 Medium</FontFamily>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Theme.xaml" />
+            </ResourceDictionary.MergedDictionaries>
 
-        <!--  设置全局 TextBlock 样式  -->
-        <Style TargetType="TextBlock">
-            <Setter Property="FontFamily" Value="{StaticResource SiYuanHeiTiMedium}" />
-        </Style>
+
+            <FontFamily x:Key="SiYuanHeiTiNormal">pack://application:,,,/EZSave.Main;component/Resources/Fonts/#思源黑体 Normal</FontFamily>
+            <FontFamily x:Key="SiYuanHeiTiMedium">pack://application:,,,/EZSave.Main;component/Resources/Fonts/#思源黑体 Medium</FontFamily>
+
+            <!--  设置全局 TextBlock 样式  -->
+            <Style TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="{StaticResource SiYuanHeiTiNormal}" />
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -40,7 +40,7 @@ namespace EZSave.Main.ViewModels
             {
                 _logger.LogInformation("新用户");
                 _navigationService.NavigateTo<WelcomeView>();
-                Directory.CreateDirectory(filePath);
+                //Directory.CreateDirectory(filePath);
             }
         }
     }

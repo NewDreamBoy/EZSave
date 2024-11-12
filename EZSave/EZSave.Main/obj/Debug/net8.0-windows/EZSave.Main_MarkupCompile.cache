@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\MyProject\EZSave\EZSave\EZSave.Main\App.xaml
-31891459986
+51978937842
 
-171091874804
-2321459742199
-Views\HomeView.xaml;Views\MainWindow.xaml;Views\WelcomeView.xaml;
+20874393095
+2347670794
+Views\HomeView.xaml;Views\MainWindow.xaml;Views\PlanTemplateSelectionControl.xaml;Views\Testhandycontrol.xaml;Views\WelcomeView.xaml;
 
 False
 

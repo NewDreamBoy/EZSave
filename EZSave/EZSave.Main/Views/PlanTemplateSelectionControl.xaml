@@ -1,0 +1,66 @@
+﻿<UserControl
+    x:Class="EZSave.Main.Views.PlanTemplateSelectionControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:autoVmBinding="clr-namespace:EZSave.Main.Infrastructure.AutoVMBinding"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:local="clr-namespace:EZSave.Main.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:planTemplateData="clr-namespace:EZSave.Model.PlanTemplateData;assembly=EZSave.Model"
+    autoVmBinding:ViewModelLocator.AutoWireViewModel="True"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    Background="White"
+    mc:Ignorable="d">
+    <Grid>
+        <ListBox Margin="32" BorderThickness="0" ItemsSource="{Binding DataList}" Style="{DynamicResource WrapPanelHorizontalListBox}">
+            <ListBox.ItemTemplate>
+                <DataTemplate DataType="planTemplateData:CardModel">
+
+                    <hc:Card
+                        MaxWidth="240"
+                        Margin="8"
+                        BorderThickness="0"
+                        Effect="{DynamicResource EffectShadow2}"
+                        Footer="{Binding Footer}">
+
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="MouseDown">
+                                <i:InvokeCommandAction Command="{Binding DataContext.SelectPlanTemplateCommand, RelativeSource={RelativeSource AncestorType=ListBox}}" />
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+
+                        <!--  Card 的内容部分模板  -->
+                        <Border Width="160" Height="160" CornerRadius="4,4,0,0">
+                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding Content}" TextWrapping="Wrap" />
+                        </Border>
+                        <!--  Card 的尾部部分模板  -->
+                        <hc:Card.FooterTemplate>
+                            <DataTemplate>
+                                <StackPanel Width="160" Margin="10">
+                                    <!--  Card 的一级内容  -->
+                                    <TextBlock
+                                        HorizontalAlignment="Left"
+                                        Style="{DynamicResource TextBlockLargeBold}"
+                                        Text="{Binding DataContext.Header, RelativeSource={RelativeSource AncestorType=hc:Card}}"
+                                        TextTrimming="CharacterEllipsis"
+                                        TextWrapping="NoWrap" />
+                                    <!--  Card 的二级内容  -->
+                                    <TextBlock
+                                        Margin="0,6,0,0"
+                                        HorizontalAlignment="Left"
+                                        Style="{DynamicResource TextBlockDefault}"
+                                        Text="{Binding}"
+                                        TextTrimming="CharacterEllipsis"
+                                        TextWrapping="NoWrap" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </hc:Card.FooterTemplate>
+                    </hc:Card>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</UserControl>
